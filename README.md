@@ -35,7 +35,7 @@ In Claude Code, register the marketplace first:
 Then install the plugin:
 
 ```
-/plugin install ez@ez-skills
+/plugin install ezcorp@ez-skills
 ```
 
 ## Usage
