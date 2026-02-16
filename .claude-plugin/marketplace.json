@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ez-skills",
+  "description": "Code quality skills for Claude Code — clean up slop and generate coding standards",
+  "owner": {
+    "name": "ezcorp",
+    "url": "https://github.com/ezcorp-org"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "repository": "https://github.com/ezcorp-org/ez-skills"
+  },
+  "plugins": [
+    {
+      "name": "ezcorp",
+      "description": "Code quality skills: review and fix sloppy code, generate project coding standards",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ez-slop-cleaner",
+        "./skills/ez-codebase-standards"
+      ],
+      "category": "development"
+    }
+  ]
+}
