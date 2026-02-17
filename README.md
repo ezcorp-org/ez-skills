@@ -26,7 +26,29 @@ Analyzes your codebase and generates a `STANDARDS.md` by reading existing patter
 
 ## Install
 
-In Claude Code, register the marketplace first:
+### Using the Skills CLI (Recommended)
+
+Works with Claude Code, Cursor, Codex, OpenCode, and [35+ agents](https://github.com/vercel-labs/skills#supported-agents):
+
+```
+npx skills add ezcorp-org/ez-skills
+```
+
+Install globally (available across all projects):
+
+```
+npx skills add ezcorp-org/ez-skills -g -y
+```
+
+Install a specific skill:
+
+```
+npx skills add ezcorp-org/ez-skills --skill ez-slop-cleaner
+```
+
+### Using Claude Code Plugin Marketplace
+
+Register the marketplace first:
 
 ```
 /plugin marketplace add ezcorp-org/ez-skills
